@@ -16,7 +16,7 @@
                             <label for="content" class="field-label">Contenido:</label>
                             <textarea name="content" id="content" rows="10" class="field-textarea"></textarea>
 
-                            <button type="submit" class="btn btn-primary">Crear nota</button>
+                            <button type="submit" class="btn btn-primary">Actualizar Nota</button>
                         </form>
                     </div>
                 </div>
