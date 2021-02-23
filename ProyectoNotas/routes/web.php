@@ -35,7 +35,7 @@ Route::get('notas/{id}/editar', function ($id){
     ->where('id', $id)
     ->first();
 
-    return 'Aquí se van a editar las notas' .$id;
+    return view('editar') .$id;
 
 })->name('notas.edit');
 
