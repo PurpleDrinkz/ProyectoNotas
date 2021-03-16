@@ -20,11 +20,7 @@ Route::get('/', function () {
 });
 
 
-Route::get('notas', function () {
-    $notas = Notas::all(); //DB::table('notas')->get();
-
-    return view('notas', ['notas' => $notas]);
-})->name('notas.index');
+Route::get('notas', 'App\Http\Controllers\NotasController@index')->name('notas.index');
 
 
 Route::get('agregar', function(){
