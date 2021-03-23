@@ -27,5 +27,7 @@ Route::get('notas/{id}/editar', 'App\Http\Controllers\NotasController@edit')->na
 
 Route::put('notas/{notas}/editar', 'App\Http\Controllers\NotasController@update')->name('notas.update');
 
+Route::delete('notas/{id}', 'App\Http\Controllers\NotasController@destroy')->name('notas.destroy');
+
 
 
